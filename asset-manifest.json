@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/formacion_terapeuta_transgeneracional/static/css/main.e35d2cf2.css",
+    "main.js": "/formacion_terapeuta_transgeneracional/static/js/main.6bcf79d6.js",
+    "static/js/787.f541a7b0.chunk.js": "/formacion_terapeuta_transgeneracional/static/js/787.f541a7b0.chunk.js",
+    "static/media/WorkSans-VariableFont_wght.ttf": "/formacion_terapeuta_transgeneracional/static/media/WorkSans-VariableFont_wght.bb6e3e8193f32a7fc502.ttf",
+    "static/media/Rufina-Regular.ttf": "/formacion_terapeuta_transgeneracional/static/media/Rufina-Regular.959d561d064c27bff867.ttf",
+    "index.html": "/formacion_terapeuta_transgeneracional/index.html",
+    "main.e35d2cf2.css.map": "/formacion_terapeuta_transgeneracional/static/css/main.e35d2cf2.css.map",
+    "main.6bcf79d6.js.map": "/formacion_terapeuta_transgeneracional/static/js/main.6bcf79d6.js.map",
+    "787.f541a7b0.chunk.js.map": "/formacion_terapeuta_transgeneracional/static/js/787.f541a7b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e35d2cf2.css",
+    "static/js/main.6bcf79d6.js"
+  ]
+}
