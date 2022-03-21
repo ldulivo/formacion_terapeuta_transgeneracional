@@ -9,16 +9,18 @@ export default function Header() {
         <div className='header--animation'>
             <header>
                 <p>
-                    <span>Abierta la inscripcion</span>
+                    <span>Abierta la inscripcion a la única</span>
                 </p>
                 <p>
-                    <span>a la única formacion</span>
-                </p>
-                <p>
-                    <span>del 2022</span>
+                    <span>formacion del 2022</span>
                 </p>
             </header>
+{/* 
             <main>
+                <ArrowDown />
+            </main>
+                 */}
+            <footer>
                 <iframe 
                     src="https://www.youtube.com/embed/aMfM43ZC52w"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -27,9 +29,6 @@ export default function Header() {
                     frameBorder={0}
                 >
                 </iframe>
-            </main>
-            <footer>
-                <ArrowDown />
             </footer>
         </div>
     </header>

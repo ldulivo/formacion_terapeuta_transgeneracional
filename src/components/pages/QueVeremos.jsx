@@ -1,47 +1,38 @@
 import React from 'react'
 import ArrowRight from '../../svg/ArrowRight'
+import Card from '../card/Card'
 
 export default function QueVeremos() {
   return (
     <>
     <h2>¿Qué veremos?</h2>
-    <ul>
-        <li>
-            <ArrowRight/>
-            <div>
-                <h3>Módulo 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit porro mollitia asperiores repellat dolores, accusantium, sapiente culpa magni totam obcaecati atque exercitationem molestiae accusamus veritatis velit optio, corrupti aut!</p>
-            </div>
-        </li>
-        <li>
-            <ArrowRight/>
-            <div>
-                <h3>Módulo 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit porro mollitia asperiores repellat dolores, accusantium, sapiente culpa magni totam obcaecati atque exercitationem molestiae accusamus veritatis velit optio, corrupti aut!</p>
-            </div>
-        </li>
-        <li>
-            <ArrowRight/>
-            <div>
-                <h3>Módulo 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit porro mollitia asperiores repellat dolores, accusantium, sapiente culpa magni totam obcaecati atque exercitationem molestiae accusamus veritatis velit optio, corrupti aut!</p>
-            </div>
-        </li>
-        <li>
-            <ArrowRight/>
-            <div>
-                <h3>Módulo 4</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit porro mollitia asperiores repellat dolores, accusantium, sapiente culpa magni totam obcaecati atque exercitationem molestiae accusamus veritatis velit optio, corrupti aut!</p>
-            </div>
-        </li>
-        <li>
-            <ArrowRight/>
-            <div>
-                <h3>Módulo 5</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit porro mollitia asperiores repellat dolores, accusantium, sapiente culpa magni totam obcaecati atque exercitationem molestiae accusamus veritatis velit optio, corrupti aut!</p>
-            </div>
-        </li>
-    </ul>
+    <div className="card-container">
+        <Card>
+            <h3>Módulo 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis adipisci doloremque alias. Vel explicabo corporis facere esse totam beatae dolorem, veritatis pariatur, obcaecati delectus voluptatum earum corrupti laborum ab reprehenderit!</p>
+        </Card>
+
+        <Card>
+            <h3>Módulo 2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis adipisci doloremque alias. Vel explicabo corporis facere esse totam beatae dolorem, veritatis pariatur, obcaecati delectus voluptatum earum corrupti laborum ab reprehenderit!</p>
+        </Card>
+        
+        <Card>
+            <h3>Módulo 3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis adipisci doloremque alias. Vel explicabo corporis facere esse totam beatae dolorem, veritatis pariatur, obcaecati delectus voluptatum earum corrupti laborum ab reprehenderit!</p>
+        </Card>
+        
+        <Card>
+            <h3>Módulo 4</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis adipisci doloremque alias. Vel explicabo corporis facere esse totam beatae dolorem, veritatis pariatur, obcaecati delectus voluptatum earum corrupti laborum ab reprehenderit!</p>
+        </Card>
+        
+        <Card>
+            <h3>Módulo 5</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis adipisci doloremque alias. Vel explicabo corporis facere esse totam beatae dolorem, veritatis pariatur, obcaecati delectus voluptatum earum corrupti laborum ab reprehenderit!</p>
+        </Card>
+    </div>
+    
 
     </>
   )
