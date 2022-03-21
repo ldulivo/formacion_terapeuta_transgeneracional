@@ -1,0 +1,12 @@
+.header {
+  h1,
+  h2 {
+    font-family: $font_secondary;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -3px;
+  }
+}
