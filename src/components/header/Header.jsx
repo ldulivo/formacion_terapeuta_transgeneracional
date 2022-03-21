@@ -19,8 +19,18 @@ export default function Header() {
                 </p>
             </header>
             <main>
-                <ArrowDown />
+                <iframe 
+                    src="https://www.youtube.com/embed/aMfM43ZC52w"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    title='Formación transgeneracional'
+                    frameBorder={0}
+                >
+                </iframe>
             </main>
+            <footer>
+                <ArrowDown />
+            </footer>
         </div>
     </header>
   )
