@@ -1,4 +1,4 @@
-const Check = ({ background = '#706aeb', color = '#fff'}) => (
+const Check = ({ background = '#706aeb', color = '#fff', border= 'none'}) => (
   
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +13,7 @@ const Check = ({ background = '#706aeb', color = '#fff'}) => (
           fill: background,
           fillOpacity: 1,
           fillRule: "nonzero",
-          stroke: "none",
+          stroke: border,
           strokeWidth: 31.75,
           strokeMiterlimit: 4,
           strokeDasharray: "none",
