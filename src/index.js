@@ -4,6 +4,10 @@ import './index.scss';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 
+//import './fonts/Work_Sans/WorkSans-VariableFont_wght.ttf';
+//import './fonts/Inter/Inter-VariableFont_slntwght.ttf';
+//import './fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

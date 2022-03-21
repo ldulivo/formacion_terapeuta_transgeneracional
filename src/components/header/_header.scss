@@ -1,12 +1,130 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 20px;
+  background: $bg_red;
+  box-shadow: 14px 4px 15px 5px $bg_black;
+  width: 100%;
+
   h1,
   h2 {
     font-family: $font_secondary;
+    background: transparent;
+    color: $bg_secondary;
   }
 
   h1 {
     font-size: 40px;
-    line-height: 45px;
-    letter-spacing: -3px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-weight: 300;
+  }
+
+  &--animation {
+    margin-top: 20px;
+    background: transparent;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    color: $bg_black;
+    width: 100%;
+
+    header {
+      background: transparent;
+      overflow: hidden;
+    }
+
+    p,
+    span {
+      background: transparent;
+    }
+
+    &-division {
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #30cfd0 30%, #520aab 80%);
+      margin-top: 20px;
+    }
+
+    span {
+      color: #151412;
+      font-weight: 900;
+      font-size: 30px;
+      text-align: center;
+      background: linear-gradient(
+        to right,
+        #e29e16 5%,
+        #151412 25%,
+        #e29e16 45%,
+        #151412 65%,
+        #e29e16 85%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: header_animation__header 4s linear infinite;
+      display: inline-block;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      background: transparent;
+      width: 100%;
+      position: relative;
+
+      svg {
+        width: 80px;
+        height: 80px;
+        background: transparent;
+        position: absolute;
+        animation: header_animation__arrowdown 0.5s linear infinite;
+      }
+    }
+  }
+}
+
+@keyframes header_animation__header {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes header_animation__arrowdown {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(0);
+  }
+  31% {
+    transform: translateY(5px);
+  }
+
+  60% {
+    transform: translateY(5px);
+  }
+  61% {
+    transform: translateY(10px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+  81% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    display: none;
   }
 }
