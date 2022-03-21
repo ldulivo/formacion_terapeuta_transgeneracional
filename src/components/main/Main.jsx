@@ -13,7 +13,7 @@ export default function Main() {
         <Section>
             <Aprenderas />
         </Section>
-        <Section backGround={'blue'}>
+        <Section backGround={'blue text_white'}>
             <QueVeremos />
         </Section>
     </main>
