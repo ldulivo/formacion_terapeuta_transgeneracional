@@ -1,18 +1,16 @@
-import * as React from "react"
-
-const Check = (props) => (
+const Check = ({ background = '#706aeb', color = '#fff'}) => (
+  
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={1235.148}
     height={1235.149}
     viewBox="0 0 326.8 326.8"
-    {...props}
   >
     <g transform="translate(342.463 101.416)">
       <circle
         style={{
           opacity: 1,
-          fill: "#706aeb",
+          fill: background,
           fillOpacity: 1,
           fillRule: "nonzero",
           stroke: "none",
@@ -29,7 +27,7 @@ const Check = (props) => (
       <path
         style={{
           fill: "none",
-          stroke: "#fff",
+          stroke: color,
           strokeWidth: 31.75,
           strokeLinecap: "butt",
           strokeLinejoin: "miter",
