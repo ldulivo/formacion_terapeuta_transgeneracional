@@ -7,10 +7,10 @@ import Section from '../section/Section'
 export default function Main() {
   return (
     <main className='main'>
-        <Section>
+        <Section backGround={'border_bottom'}>
             <Intro />
         </Section>
-        <Section>
+        <Section backGround={'white'}>
             <Aprenderas />
         </Section>
         <Section backGround={'blue text_white'}>
