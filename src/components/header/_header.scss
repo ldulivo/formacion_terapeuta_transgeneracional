@@ -53,11 +53,15 @@
     }
 
     span {
-      color: #151412;
+      //color: #151412;
+      color: $bg_red;
       font-weight: 900;
       font-size: 20px;
       text-align: center;
-      background: linear-gradient(
+      display: inline-block;
+      text-shadow: 0 0 3px black;
+
+      /* background: linear-gradient(
         to right,
         #e29e16 5%,
         #151412 25%,
@@ -73,8 +77,7 @@
       text-fill-color: transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: header_animation__header 4s linear infinite;
-      display: inline-block;
+      animation: header_animation__header 4s linear infinite; */
     }
 
     main {
