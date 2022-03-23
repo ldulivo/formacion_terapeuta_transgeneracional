@@ -24,6 +24,11 @@ export default function Main() {
             <Collage />
         </Section>
 
+        <Section backGround={'white'}>
+            <Aprenderas />
+            <Button>Reservá tu lugar</Button>
+        </Section>
+
         <Section backGround={'border_top'}>
             <QueEs />
             <DirigidoA />
@@ -33,11 +38,6 @@ export default function Main() {
             <IncluyeCertificado />
             <CuandoComienza />
             <Button className="m-tb15">¡Si, quiero asegurar mi lugar!</Button>
-        </Section>
-
-        <Section backGround={'white'}>
-            <Aprenderas />
-            <Button>Reservá tu lugar</Button>
         </Section>
         
         <Section backGround={'blue text_white'}>
