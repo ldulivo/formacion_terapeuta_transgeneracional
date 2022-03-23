@@ -21,12 +21,12 @@ export default function Main() {
         </Section>
 
         <Section backGround={'white'}>
-            <Collage />
+            <Aprenderas />
+            <Button>Reservá tu lugar</Button>
         </Section>
 
         <Section backGround={'white'}>
-            <Aprenderas />
-            <Button>Reservá tu lugar</Button>
+            <Collage />
         </Section>
 
         <Section backGround={'border_top'}>
