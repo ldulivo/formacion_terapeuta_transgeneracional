@@ -6,8 +6,8 @@ export default function NoEstoyConforme() {
         <h2>¿Qué sucede si no estoy conforme con la Formación?</h2>
         <p>
             No te preocupes, tienes 7 días de prueba. Si no
-            estás conforme, te devolvemos el 100% de tu
-            dinero.
+            estás conforme, <b>te devolvemos el 100% de tu
+            dinero.</b>
         </p>
     </div>
   )

@@ -7,8 +7,8 @@ export default function CuandoComienza() {
         <p>
             Comenzamos el 9 de abril a las 16hs. Una vez
             realizado el pago, vas a poder acceder a las clases
-            en vivo por Zoom. Asegurá tu lugar, no te
-            quedes afuera.
+            en vivo por Zoom. <b>Asegurá tu lugar, no te
+            quedes afuera.</b>
         </p>
     </div>
   )

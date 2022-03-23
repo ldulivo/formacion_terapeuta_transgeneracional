@@ -10,9 +10,9 @@ export default function Collage() {
           <img src={CollageImg} alt="Pablo Saravia" />
         </div>
         <p>
-          Te Compartiré todas las herramientas y
+          <b>Te Compartiré todas las herramientas y
           metodologías que utilizo con mis
-          pacientes, para que te formes como
+          pacientes,</b> para que te formes como
           terapeuta transgeneracional y/o sanes tu
           propia historia.
         </p>
