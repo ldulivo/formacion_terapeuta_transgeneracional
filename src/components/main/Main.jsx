@@ -12,6 +12,7 @@ import PorQueEsDiferente from '../pages/PorQueEsDiferente'
 import QueEs from '../pages/QueEs'
 import QueVeremos from '../pages/QueVeremos'
 import Section from '../section/Section'
+import Testimonials from '../testimonials/Testimonials'
 
 export default function Main() {
   return (
@@ -42,6 +43,10 @@ export default function Main() {
         
         <Section backGround={'blue text_white'}>
             <QueVeremos />
+        </Section>
+
+        <Section>
+          <Testimonials />
         </Section>
     </main>
   )
