@@ -177,6 +177,32 @@
       max-width: 385px;
     }
 
+    &--efect {
+      color: #151412;
+      font-weight: 900;
+      font-size: 20px;
+      text-align: center;
+      display: inline-block;
+
+      background: linear-gradient(
+        to right,
+        #e29e16 5%,
+        #151412 25%,
+        #e29e16 45%,
+        #151412 65%,
+        #e29e16 85%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: header_animation__header 4s linear infinite;
+    }
+
     &--container {
       width: 100%;
       height: calc(100vw * 1.17);

@@ -4,8 +4,8 @@ export default function Collage() {
   return (
     <div className='Collage'>
         <h2>Formación Terapeuta transgeneracional</h2>
-        <p>¿Estás listo para sanar</p>
-        <p>tu propia Historia?</p>
+        <p className="Collage--efect">¿Estás listo para sanar</p>
+        <p className="Collage--efect">tu propia Historia?</p>
         <div className="Collage--container">
           <img src={CollageImg} alt="Pablo Saravia" />
         </div>
