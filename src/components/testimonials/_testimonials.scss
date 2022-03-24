@@ -1,21 +1,97 @@
 .Testimonials {
+  /* display: flex;
+  width: 100%;
+  overflow: hidden; */
+  width: 88vw;
+
+  &--container {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+  }
+
+  &--cards {
+    width: 640px;
+    display: flex;
+    flex-flow: row nowrap;
+    scrollbar-width: none;
+    scroll-snap-type: x proximity;
+    position: relative;
+    padding-top: 35px;
+  }
+
   .card {
     width: 300px;
     height: 400px;
+    height: 245px;
     background: $bg_primary;
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px 4px 15px 15px;
+    border: 0;
+    margin-right: 20px;
 
-    footer {
+    &::before {
+      content: "";
+      width: 100%;
+      height: 4px;
+      background: $bg_blue;
       position: absolute;
-      left: 20px;
-      bottom: 20px;
+      top: -2px;
+    }
+
+    header {
+      position: relative;
+      //left: 20px;
+      width: 100%;
+      top: 20px;
+      display: flex;
+      justify-content: center;
+
+      &::before {
+        content: "";
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 28px);
+        top: -42px;
+        box-shadow: 0px 5px 13px -4px $bg_black;
+      }
 
       img {
-        width: 40px;
+        position: absolute;
+        width: 60px;
+        left: calc(50% - 30px);
+        top: -42px;
+      }
+
+      p {
+        margin-top: 30px;
+        color: $text_dark;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+      }
+    }
+
+    footer {
+      width: 100%;
+      position: relative;
+
+      iframe {
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+        position: absolute;
+        bottom: 0;
       }
     }
   }

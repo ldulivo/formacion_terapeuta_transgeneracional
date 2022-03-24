@@ -45,7 +45,7 @@ export default function Main() {
             <QueVeremos />
         </Section>
 
-        <Section>
+        <Section backGround={'border_top'}>
           <Testimonials />
         </Section>
     </main>
