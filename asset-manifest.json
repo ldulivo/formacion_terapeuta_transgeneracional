@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/formacion_terapeuta_transgeneracional/static/css/main.7d1b09ad.css",
+    "main.css": "/formacion_terapeuta_transgeneracional/static/css/main.5612db9e.css",
     "main.js": "/formacion_terapeuta_transgeneracional/static/js/main.515b6ec0.js",
     "static/js/787.f541a7b0.chunk.js": "/formacion_terapeuta_transgeneracional/static/js/787.f541a7b0.chunk.js",
     "static/media/pablo_sarabia_collage.png": "/formacion_terapeuta_transgeneracional/static/media/pablo_sarabia_collage.10751b653618acf4dfa7.png",
     "static/media/testimonials01.png": "/formacion_terapeuta_transgeneracional/static/media/testimonials01.563c57ccad1bd8d70034.png",
     "index.html": "/formacion_terapeuta_transgeneracional/index.html",
-    "main.7d1b09ad.css.map": "/formacion_terapeuta_transgeneracional/static/css/main.7d1b09ad.css.map",
+    "main.5612db9e.css.map": "/formacion_terapeuta_transgeneracional/static/css/main.5612db9e.css.map",
     "main.515b6ec0.js.map": "/formacion_terapeuta_transgeneracional/static/js/main.515b6ec0.js.map",
     "787.f541a7b0.chunk.js.map": "/formacion_terapeuta_transgeneracional/static/js/787.f541a7b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d1b09ad.css",
+    "static/css/main.5612db9e.css",
     "static/js/main.515b6ec0.js"
   ]
 }
