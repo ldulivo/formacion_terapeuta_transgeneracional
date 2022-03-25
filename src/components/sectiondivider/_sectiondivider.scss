@@ -1,0 +1,51 @@
+.SectionDivider {
+  height: 185px !important;
+  width: 100% !important;
+  position: relative !important;
+  background-image: url("../../img/section_divider_b_w640.png") !important;
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+  top: -60px !important;
+  z-index: 20 !important;
+}
+
+.SectionDivider-b {
+  background-image: url("../../img/section_divider_a_w640.png") !important;
+  position: absolute !important;
+  top: 145px !important;
+  left: 0;
+}
+
+.SectionDivider--grey {
+  top: -65px !important;
+  left: 0 !important;
+  position: absolute !important;
+}
+
+@media (min-width: 640px) {
+  .SectionDivider {
+    background-image: url("../../img/section_divider_b.png") !important;
+    background-position-x: center !important;
+  }
+
+  .SectionDivider-b {
+    background-image: url("../../img/section_divider_a.png") !important;
+    top: 35px !important;
+  }
+
+  .SectionDivider--grey {
+    top: -35px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .SectionDivider--grey {
+    top: -60px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .SectionDivider--grey {
+    top: -71px !important;
+  }
+}

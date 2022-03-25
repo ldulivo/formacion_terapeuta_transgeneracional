@@ -18,6 +18,7 @@ a:link,
 a:active,
 a:visited {
   text-decoration: none;
+  color: $bg_secondary;
 }
 
 b {
@@ -32,11 +33,15 @@ b {
 
 @import "./components/header/header";
 @import "./components/main/main";
+@import "./components/footer/footer";
+@import "./components/sectiondivider/sectiondivider";
 @import "./components/card/card";
 @import "./components/testimonials/testimonials";
 
 .button {
-  display: inline-block;
+  //display: inline-block;
+  display: flex;
+  align-items: center;
   border: none;
   color: $bg_secondary;
   text-decoration: none;
@@ -57,6 +62,12 @@ b {
   &:active {
     transform: translate(2px, 2px);
     box-shadow: 2px 2px 5px 0px $bg_black;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
   }
 }
 

@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <p>
+    <p className="pb50">
     El objetivo de la terapia es liberar
     la memoria del clan familiar,
     todos esos programas, creencias,

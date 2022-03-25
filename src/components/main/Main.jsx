@@ -12,6 +12,7 @@ import PorQueEsDiferente from '../pages/PorQueEsDiferente'
 import QueEs from '../pages/QueEs'
 import QueVeremos from '../pages/QueVeremos'
 import Section from '../section/Section'
+import SectionDivider from '../sectiondivider/SectionDivider'
 import Testimonials from '../testimonials/Testimonials'
 
 export default function Main() {
@@ -19,6 +20,7 @@ export default function Main() {
     <main className='main'>
         <Section backGround={'border_bottom'}>
             <Intro />
+            <SectionDivider className="SectionDivider-b"/>
         </Section>
 
         <Section backGround={'white'}>
@@ -31,6 +33,7 @@ export default function Main() {
         </Section>
 
         <Section backGround={'border_top'}>
+            <SectionDivider className="SectionDivider--grey"/>
             <QueEs />
             <DirigidoA />
             <PorQueEsDiferente />
@@ -42,6 +45,7 @@ export default function Main() {
         </Section>
         
         <Section backGround={'blue text_white'}>
+            <SectionDivider />
             <QueVeremos />
         </Section>
 
