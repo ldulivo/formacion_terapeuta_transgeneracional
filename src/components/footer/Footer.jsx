@@ -10,7 +10,7 @@ export default function Footer() {
 
           <div className='Footer--container'>
               <div className="Footer--branding">
-                  <p><b>pablo</b>sarabia</p>
+                  <p><b>Sígueme en:</b></p>
               </div>
 
               <div className="Footer--socialmedia">
@@ -22,7 +22,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                             >
                                 <Facebook />
-                                <p>facebook</p>
+                                <p>Pablo Saravia</p>
                           </a>
                       </li>
 
@@ -33,7 +33,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                             >
                                 <Instagram />
-                                <p>instagram</p>
+                                <p>@pabloasaravia</p>
                             </a>
                       </li>
                       <li>
@@ -43,7 +43,8 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                             >
                                 <YouTube />
-                                <p>youtube</p>
+                                <p>Pablo Saravia Decodificación</p>
+                                <p>Transgeneracional</p>
                             </a>
                       </li>
                   </ul>

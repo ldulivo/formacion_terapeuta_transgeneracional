@@ -1,8 +1,6 @@
 import img1 from '../../img/testimonials01.png'
-
-//import video1 from 'https://scontent.cdninstagram.com/v/t50.2886-16/100761281_2585147115062104_5772445566134703554_n.mp4'
-
-//allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+import img2 from '../../img/testimonials02.png'
+import img3 from '../../img/testimonials03.png'
 
 export default function Testimonials() {
   return (
@@ -12,12 +10,12 @@ export default function Testimonials() {
                 
                 <div className="card"> {/* Card */}
                     <header>
-                        <img src={img1} alt="testimonials Pablo Sarabia" />
-                        <p>Laura</p>
+                        <img src={img1} alt="testimonials Pablo Saravia" />
+                        <p>Laura Carozzi</p>
                     </header>
                     <footer>
                         <iframe 
-                            src="https://www.youtube.com/embed/c387p_FiKmY"
+                            src="https://www.youtube.com/embed/FOGv4KsLxlw"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen
                             title='Formación transgeneracional'
@@ -29,12 +27,29 @@ export default function Testimonials() {
 
                 <div className="card"> {/* Card */}
                     <header>
-                        <img src={img1} alt="testimonials Pablo Sarabia" />
-                        <p>Laura</p>
+                        <img src={img2} alt="testimonials Pablo Saravia" />
+                        <p>Lorena Bissio</p>
                     </header>
                     <footer>
                         <iframe 
-                            src="https://www.youtube.com/embed/c387p_FiKmY"
+                            src="https://www.youtube.com/embed/LWNMQjZBvJY"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            title='Formación transgeneracional'
+                            frameBorder={0}
+                        >
+                        </iframe>
+                    </footer>
+                </div> {/* End Card */}
+
+                <div className="card"> {/* Card */}
+                    <header>
+                        <img src={img3} alt="testimonials Pablo Saravia" />
+                        <p>Laura Costa</p>
+                    </header>
+                    <footer>
+                        <iframe 
+                            src="https://www.youtube.com/embed/V6CNvJoHnZw"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen
                             title='Formación transgeneracional'

@@ -6,7 +6,7 @@ export default function PorQueEsDiferente() {
         <h2>¿Por qué este programa es diferente?</h2>
         <p>
             Este programa está creado con años de estudio e
-            investigación, y de <b>más de 20 años de
+            investigación, y <b>más de 20 años de
             experiencia</b> a lo largo de mi vida. <b>Vamos a ver
             casos reales y protocolos que aplico con mis
             pacientes.</b>
