@@ -3,7 +3,7 @@ import Whatsapp from '../../svg/Whatsapp'
 
 export default function Button({ className, children }) {
   const msg = 'Hola Pablo! Estoy interesado en tu curso';
-  const number = '5491139102975'
+  const number = '5491139102975';
   return (
     <a 
       href={`https://wa.me/${number}?text=${msg}`} 

@@ -1,6 +1,7 @@
 import img1 from '../../img/testimonials01.png'
 import img2 from '../../img/testimonials02.png'
 import img3 from '../../img/testimonials03.png'
+import Iframe from '../iframe/Iframe'
 
 export default function Testimonials() {
   return (
@@ -14,14 +15,7 @@ export default function Testimonials() {
                         <p>Laura Carozzi</p>
                     </header>
                     <footer>
-                        <iframe 
-                            src="https://www.youtube.com/embed/FOGv4KsLxlw"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen
-                            title='Formación transgeneracional'
-                            frameBorder={0}
-                        >
-                        </iframe>
+                        <Iframe src={"https://www.youtube.com/embed/FOGv4KsLxlw"} />
                     </footer>
                 </div> {/* End Card */}
 
@@ -31,14 +25,7 @@ export default function Testimonials() {
                         <p>Lorena Bissio</p>
                     </header>
                     <footer>
-                        <iframe 
-                            src="https://www.youtube.com/embed/LWNMQjZBvJY"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen
-                            title='Formación transgeneracional'
-                            frameBorder={0}
-                        >
-                        </iframe>
+                        <Iframe src={"https://www.youtube.com/embed/LWNMQjZBvJY"} />
                     </footer>
                 </div> {/* End Card */}
 
@@ -48,14 +35,7 @@ export default function Testimonials() {
                         <p>Laura Costa</p>
                     </header>
                     <footer>
-                        <iframe 
-                            src="https://www.youtube.com/embed/V6CNvJoHnZw"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen
-                            title='Formación transgeneracional'
-                            frameBorder={0}
-                        >
-                        </iframe>
+                        <Iframe src={"https://www.youtube.com/embed/V6CNvJoHnZw"} />
                     </footer>
                 </div> {/* End Card */}
             </div>

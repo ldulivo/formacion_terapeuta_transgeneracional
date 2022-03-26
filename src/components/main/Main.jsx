@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../button/Button'
+import FloatButton from '../floatButton/FloatButton'
 import Aprenderas from '../pages/Aprenderas'
 import Collage from '../pages/Collage'
 import CuandoComienza from '../pages/CuandoComienza'
@@ -18,6 +19,8 @@ import Testimonials from '../testimonials/Testimonials'
 export default function Main() {
   return (
     <main className='main'>
+        <FloatButton />
+
         <Section backGround={'border_bottom'}>
             <Intro />
             <SectionDivider className="SectionDivider-b"/>
@@ -48,8 +51,10 @@ export default function Main() {
             <SectionDivider />
             <QueVeremos />
         </Section>
+            <Button className="m-tb15 mb100">¡Quiero asegurar mi lugar!</Button>
 
         <Section backGround={'border_top'}>
+          <h2>Lo que opinan nuestros estudiantes:</h2>
           <Testimonials />
         </Section>
     </main>
