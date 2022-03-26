@@ -32,19 +32,23 @@ export default function Main() {
         </Section>
 
         <Section backGround={'white'}>
-            <Collage />
+          <div className="content">
+              <Collage />
+          </div>
         </Section>
 
         <Section backGround={'border_top'}>
             <SectionDivider className="SectionDivider--grey"/>
-            <QueEs />
-            <DirigidoA />
-            <PorQueEsDiferente />
-            <NoPuedoAsistir />
-            <NoEstoyConforme />
-            <IncluyeCertificado />
-            <CuandoComienza />
-            <Button className="m-tb15">¡Si, quiero asegurar mi lugar!</Button>
+            <div className="content">
+              <QueEs />
+              <DirigidoA />
+              <PorQueEsDiferente />
+              <NoPuedoAsistir />
+              <NoEstoyConforme />
+              <IncluyeCertificado />
+              <CuandoComienza />
+              <Button className="m-tb15">¡Si, quiero asegurar mi lugar!</Button>
+            </div>
         </Section>
         
         <Section backGround={'blue text_white'}>
@@ -54,8 +58,10 @@ export default function Main() {
             <Button className="m-tb15 mb100">¡Quiero asegurar mi lugar!</Button>
 
         <Section backGround={'border_top'}>
-          <h2>Lo que opinan nuestros estudiantes:</h2>
-          <Testimonials />
+          <div className="content content2">
+            <h2>Lo que opinan nuestros estudiantes:</h2>
+            <Testimonials />
+          </div>
         </Section>
     </main>
   )

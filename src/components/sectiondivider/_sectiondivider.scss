@@ -1,18 +1,20 @@
 .SectionDivider {
   height: 185px !important;
-  width: 100% !important;
+  width: 100vw !important;
   position: relative !important;
   background-image: url("../../img/section_divider_b_w640.png") !important;
   background-repeat: no-repeat !important;
   background-position-y: center !important;
   top: -60px !important;
   z-index: 20 !important;
+
+  background-size: auto;
 }
 
 .SectionDivider-b {
   background-image: url("../../img/section_divider_a_w640.png") !important;
   position: absolute !important;
-  top: 145px !important;
+  top: 250px !important;
   left: 0;
 }
 
@@ -22,30 +24,78 @@
   position: absolute !important;
 }
 
+@media (min-width: 425px) {
+  .SectionDivider-b {
+    top: 215px !important;
+  }
+}
+
+@media (min-width: 524px) {
+  .SectionDivider-b {
+    top: 175px !important;
+  }
+}
+
 @media (min-width: 640px) {
   .SectionDivider {
     background-image: url("../../img/section_divider_b.png") !important;
     background-position-x: center !important;
+    top: -37px !important;
   }
 
   .SectionDivider-b {
     background-image: url("../../img/section_divider_a.png") !important;
-    top: 35px !important;
+    top: 175px !important;
+    background-size: contain;
   }
 
   .SectionDivider--grey {
     top: -35px !important;
   }
+
+  .SectionDivider--blue {
+    top: -35px !important;
+  }
+}
+
+@media (min-width: 675px) {
+  .SectionDivider-b {
+    top: 171px !important;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 800px) {
+  .SectionDivider-b {
+    top: 138px !important;
+    background-size: contain;
+  }
 }
 
 @media (min-width: 1024px) {
   .SectionDivider--grey {
-    top: -60px !important;
+    top: -43px !important;
   }
 }
 
 @media (min-width: 1440px) {
   .SectionDivider--grey {
-    top: -71px !important;
+    top: -43px !important;
+  }
+  .SectionDivider-b {
+    top: 138px !important;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1500px) {
+  .SectionDivider {
+    display: none;
+  }
+  .SectionDivider--grey {
+    display: none;
+  }
+  .SectionDivider-b {
+    display: none;
   }
 }
