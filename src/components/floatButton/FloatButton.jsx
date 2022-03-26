@@ -1,7 +1,7 @@
 import Whatsapp from '../../svg/Whatsapp'
 
 export default function FloatButton() {
-    const msg = 'Hola Pablo! Estoy interesado en tu curso';
+    const msg = '¡Hola Pablo! Estoy interesado en la Formación Transgeneracional';
     const number = '5491139102975';
 
   return (
