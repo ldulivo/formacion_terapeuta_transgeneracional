@@ -24,16 +24,19 @@
   }
 
   .card {
+    background: $bg_black !important;
     width: 315px;
     height: 431px;
     position: relative;
     margin: 10px;
-    background: $bg_black !important;
+    background: #151412 !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
     margin-left: 15px;
+    padding: 0;
+    padding-top: 7px;
 
     header {
       position: relative;
