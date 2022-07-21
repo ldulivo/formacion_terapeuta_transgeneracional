@@ -60,11 +60,11 @@ export default function Footer() {
                   </a>
 
                   <a 
-                    href="https://www.linkedin.com/in/ezequiel-d-ulivo-b4389b1b3/" 
+                    href="https://www.linkedin.com/in/ldulivo/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
-                      <p>developed by <b>Eze</b></p>
+                      <p>developed by <b>Leo</b></p>
                   </a>
               </div>
           </div>
